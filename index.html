@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ST. Michael High School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      margin: 20px;
+      flex-wrap: wrap;
+    }
+    .principal {
+      flex: 1;
+      text-align: center;
+    }
+    .principal img {
+      width: 250px;
+      max-width: 100%;
+      border-radius: 10px;
+      border: 3px solid #004080;
+    }
+    .content {
+      flex: 3;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #004080;
+    }
+    .join-section {
+      margin-top: 20px;
+      padding: 15px;
+      background: #f9f9f9;
+      border: 2px solid #004080;
+      border-radius: 8px;
+    }
+    .join-section label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ST. Michael High School
+  </header>
+
+  <div class="container">
+    <div class="principal">
+      <!-- Replace YOUR_IMAGE_NAME_OR_PATH_HERE with the actual image file name or path -->
+      <img src="C:\Users\Dell\Pictures\hakla.jpg.png" alt="Principal">
+      <p><strong>Our Principal</strong></p>
+    </div>
+
+    <div class="content">
+      <h2>Upcoming Humanitarian Trip to Iran</h2>
+      <p>
+        We at <strong>ST. Michael High School</strong> are proud to announce a special humanitarian trip to Iran. 
+        The purpose of this journey is to extend our hands of compassion and support to the homeless and poor individuals 
+        who are in dire need of care and assistance. This initiative reflects our school’s values of kindness, empathy, 
+        and global responsibility.
+      </p>
+      <p>
+        Our students, guided by teachers and staff, will travel by airplanes to Iran, ensuring a safe and comfortable journey. 
+        Once there, we will engage in activities such as distributing food, clothing, and essential supplies, as well as 
+        spending time with those in need to bring hope and encouragement. This trip is not only about helping others, 
+        but also about learning valuable lessons of humanity, teamwork, and service.
+      </p>
+      <p>
+        We believe this experience will inspire our students to become responsible global citizens who understand the importance 
+        of giving back to society. It is a chance to make a real difference in the lives of people who need us the most.
+      </p>
+
+      <div class="join-section">
+        <form>
+          <label>Would you like to join us, students?</label><br>
+          <input type="radio" id="yes" name="join" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="join" value="no">
+          <label for="no">No</label>
+          <br><br>
+
+          <!-- New section: Class selection -->
+          <label>What’s your class?</label><br>
+          <input type="radio" id="class6" name="class" value="6">
+          <label for="class6">Class 6</label><br>
+          <input type="radio" id="class7" name="class" value="7">
+          <label for="class7">Class 7</label><br>
+          <input type="radio" id="class8" name="class" value="8">
+          <label for="class8">Class 8</label><br>
+          <input type="radio" id="class9" name="class" value="9">
+          <label for="class9">Class 9</label><br><br>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 ST. Michael High School | Compassion • Service • Learning
+  </footer>
+</body>
+</html>
